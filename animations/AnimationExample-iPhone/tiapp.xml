@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>com.appcelerator.example.animations.iphone</id>
+<name>AnimationExample-iPhone</name>
+<version>1.0</version>
+<publisher>cauld</publisher>
+<url>http://www.appcelerator.com</url>
+<description>An iPhone Animation Example</description>
+<copyright>2010 Appcelerator, Inc</copyright>
+<icon>default_app_logo.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+<guid>19ad6781-5143-468c-97e4-224c47d470bb</guid>
+</ti:app>
