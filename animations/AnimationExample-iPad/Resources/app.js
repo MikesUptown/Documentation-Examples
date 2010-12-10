@@ -23,10 +23,8 @@ openingLabel = Titanium.UI.createLabel({
     text:'Happy Festivus',
     top: Math.round(Titanium.Platform.displayCaps.platformHeight * 0.30),
 	height: 'auto',
-	width:'auto',	
-    shadowColor:'#aaa',
-    shadowOffset:{x:5,y:5},
-    color:'#900',
+	width:'auto',
+    color:'#fff',
     font:{fontSize:openingLabelFontsize},
     textAlign:'center'
 });
