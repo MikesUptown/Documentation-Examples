@@ -5,7 +5,7 @@ Ti.include('./window_setup.js');
 
 if (Titanium.Platform.osname === 'android') {
 	//Android doesn't currently work via the module include
-	Ti.include('javascript/com.appcelerator.tiphp.js');
+	Ti.include('./com.appcelerator.tiphp.js');
 } else {
 	require('com.appcelerator.tiphp'); //Ti.PHP is an alias of a PHP_JS instance
 }
