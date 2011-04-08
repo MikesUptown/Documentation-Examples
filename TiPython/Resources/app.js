@@ -4,7 +4,8 @@ Titanium.UI.setBackgroundColor('#000');
 var tiWindow = Titanium.UI.createWindow({
   backgroundColor:'#fff',
   url: 'javascript/demo.js',
-  navBarHidden: true
+  navBarHidden: false,
+  title: 'TiPython'
 });
 
 tiWindow.open();

@@ -4,8 +4,9 @@ var tiWindow = Titanium.UI.currentWindow;
 Ti.include('./window_setup.js');
 
 if (Titanium.Platform.osname === 'android') {
-	//Android doesn't currently work via the module include
-	Ti.include('javascript/com.appcelerator.tipython.js');
+	/* Android doesn't currently work via the module include so lets attempt to
+	load the JavaScript via a standard include. */
+	Ti.include('./com.appcelerator.tipython.js');
 } else {
 	require('com.appcelerator.tipython'); //Ti.Python is an alias of Skulpt's Sk object.
 	
